@@ -1,4 +1,4 @@
-# Installation
+# SLEAP Installation
 
 ## Install Miniconda
 
@@ -72,4 +72,6 @@ Openning the GUI
 sleap-label
 ~~~
 
-If you run into any problems please refer to the [official guide](https://sleap.ai/installation.html)
+## Aditional Resources
+
+Official [guide](https://sleap.ai/installation.html)
