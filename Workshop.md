@@ -1,4 +1,4 @@
-# Running SLEAP
+# Setting a project
 
 ## Activating the environment
 
@@ -56,3 +56,19 @@ Connect the following bodyparts:
 Save the skeleton. At the end it should look something like this:
 
 ![Skeleton](Images/03.jpg)
+
+# Labeling
+
+## Selecting frames to label
+
+Go to the "Labeling Suggestions" tab and select one of the four methods. Each method has a different criteria to generate labels. You can read more about the methods [here](https://sleap.ai/guides/gui.html#suggestion-methods).
+
+Once you have selected a method click on "Generate suggestions". That will create a list of different frames to label and will populate the top part of the "Labeling Suggestions" tab.
+
+Depending on the method you chose, you could have a higher or lesser number or frames. Regardless, it should look more or less like this:
+
+![Labeling suggestion](Images/04.jpg)
+
+## Creating Instances
+
+Once you have
