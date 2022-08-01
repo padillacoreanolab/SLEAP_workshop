@@ -75,4 +75,5 @@ sleap-label
 ## Aditional Resources
 
 Official [guide](https://sleap.ai/installation.html)
+
 Leo's Guide [(for Windows)](https://garnet-rotate-01f.notion.site/SLEAP-installation-055f67ea92ae4f7bbee2d29ff62867e0)
