@@ -63,7 +63,7 @@ Save the skeleton. At the end it should look something like this:
 
 Go to the "Labeling Suggestions" tab and select one of the four methods. Each method has a different criteria to generate labels. You can read more about the methods [here](https://sleap.ai/guides/gui.html#suggestion-methods).
 
-Once you have selected a method click on "Generate suggestions". That will create a list of different frames to label and will populate the top part of the "Labeling Suggestions" tab.
+Once you have selected a method click on "Generate suggestions" (this can take some ). That will create a list of different frames to label and will populate the top part of the "Labeling Suggestions" tab.
 
 Depending on the method you chose, you could have a higher or lesser number or frames. Regardless, it should look more or less like this:
 
@@ -71,8 +71,20 @@ Depending on the method you chose, you could have a higher or lesser number or f
 
 ## Creating Instances
 
-Once you have a set of frames, create an instance for each animal in your video. To do this, go to the "Instances tab" and click on "New Instance". 
+Once you have a set of frames, create an instance for each animal in your video. To do this, go to the "Instances tab" and click on "New Instance".
 
-Once it is created, in the "Track" part, assign a new name to it i.e: Mouse_1, Mouse_2, etc.
+Once your instance is created, locate each of the bodyparts where they belong. Tip: If the parts are occluded, try your best guess to estimate the position on the current frame.
+
+Once it is created, select the Track, go to the "Tracks" menu and then to "Set Instance Track" -> "New Track" to assign a new name to them i.e: Mouse_1, Mouse_2, etc.
 
 ![Instances](Images/05.jpg)
+
+## More Labels
+
+Now you have your first labeled frame. To label subsequent frames, go back to the "Labeling suggestions tab", hit "Next" and create new instances for the set of frames. Repeat until you have finished labeling the suggested frames.
+
+You can copy the position of the prior labeled frame by going into the GUI, hiting the right click and then selecting "Copy from prior Frame"
+
+## More Frames
+
+Once you are done labeling the first set, go back to the "Labeling suggeestions" tab and select a different suggestion method.
