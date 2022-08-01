@@ -71,4 +71,8 @@ Depending on the method you chose, you could have a higher or lesser number or f
 
 ## Creating Instances
 
-Once you have
+Once you have a set of frames, create an instance for each animal in your video. To do this, go to the "Instances tab" and click on "New Instance". 
+
+Once it is created, in the "Track" part, assign a new name to it i.e: Mouse_1, Mouse_2, etc.
+
+![Instances](Images/05.jpg)
