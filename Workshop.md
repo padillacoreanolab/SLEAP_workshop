@@ -83,7 +83,9 @@ Once it is created, select the Track, go to the "Tracks" menu and then to "Set I
 
 Now you have your first labeled frame. To label subsequent frames, go back to the "Labeling suggestions tab", hit "Next" and create new instances for the set of frames. Repeat until you have finished labeling the suggested frames.
 
-You can copy the position of the prior labeled frame by going into the GUI, hiting the right click and then selecting "Copy from prior Frame"
+You can copy the position of the prior labeled frame by going into the GUI, hiting the right click and then selecting "Copy from prior Frame".
+
+If you mistakenly swapped the instances of the animals in the frame, you can it Ctrl + T to correct this.
 
 ## More Frames
 
