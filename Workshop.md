@@ -90,3 +90,8 @@ If you mistakenly swapped the instances of the animals in the frame, you can it 
 ## More Frames
 
 Once you are done labeling the first set, go back to the "Labeling suggeestions" tab and select a different suggestion method.
+
+TODO: 
+* Colab Notebook on Training and Inference.
+* Importing more frames. 
+* Proofreading
