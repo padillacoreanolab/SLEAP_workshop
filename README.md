@@ -32,7 +32,7 @@ wget -nc https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh 
 
 ## Install SLEAP
 
-### From a conda package
+### From a conda package *(Recommended method)*
 
 ~~~
 conda create -y -n sleap -c sleap -c nvidia -c conda-forge sleap=1.2.6
