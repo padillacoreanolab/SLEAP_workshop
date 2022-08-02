@@ -91,7 +91,20 @@ If you mistakenly swapped the instances of the animals in the frame, you can it 
 
 Once you are done labeling the first set, go back to the "Labeling suggeestions" tab and select a different suggestion method.
 
-TODO: 
-* Colab Notebook on Training and Inference.
-* Importing more frames. 
-* Proofreading
+When you are done, go to "Predict" -> "Export Labels Package" -> "Labeled + suggested frames" and save the .pkg.slp file. We will use this file later to run Training and Inference.
+
+## Importing more Frames
+
+Suppose you have labeled data and/or predictions and you want to increase the number of labeled frames. What you can do is merge the date from one file into another. To do this, go to "File" -> "Merge into project" and then select the .slp of .pkg.slp file where your data is located. 
+
+After that, if you have merge conflicts you can either use the new instances or base instances for your project.
+
+![Importing data](Images/06.jpg)
+
+# Training and Inference
+
+## Training via Colab and remote server
+
+Please refer to this [Colab Notebok](https://github.com/rdiazrincon/SLEAP_workshop/blob/master/Training_and_inference.ipynb) and follow the instructions there.
+
+# Proofreading
