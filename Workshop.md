@@ -40,7 +40,7 @@ Create the following bodyparts:
 * thorax 
 * forehead. 
 
-Alternatively you can download them from [here](https://github.com/rdiazrincon/SLEAP_Data/blob/master/skeletons/skeleton_instances.json).
+Alternatively you can download them from [here](https://github.com/rdiazrincon/SLEAP_workshop/blob/master/examples/skeleton_1.json) and [here](https://github.com/rdiazrincon/SLEAP_workshop/blob/master/examples/skeleton_2.json).
 
 Now let's connect those bodyparts! To create edges, select a bodypart from the "Edges" section and then "join them" by selecting another body part from the "to" part. That will create a line from bodypart_A to bodypart_B.
 
