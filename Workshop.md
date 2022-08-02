@@ -69,6 +69,8 @@ Depending on the method you chose, you could have a higher or lesser number or f
 
 ![Labeling suggestion](Images/04.jpg)
 
+Tip: After running different methods, you can go to the next labeled frame by pressing "Alt" +  "Right Key"
+
 ## Creating Instances
 
 Once you have a set of frames, create an instance for each animal in your video. To do this, go to the "Instances tab" and click on "New Instance".
@@ -108,3 +110,19 @@ After that, if you have merge conflicts you can either use the new instances or 
 Please refer to this [Colab Notebok](https://github.com/rdiazrincon/SLEAP_workshop/blob/master/Training_and_inference.ipynb) and follow the instructions there.
 
 # Proofreading
+
+When you finish running training and inference you might encounter some errors:
+
+## Swapped Idenitities
+
+If you have swapped identities, please press "Ctrl" + "T" or go to "Tracks" -> "Transpose Identity Tracks"
+
+## Mistaken Tracks/Instances
+
+If you run into mistaken tracks you can try out the following.
+
+* Identify the problematic instance.
+
+* Go to "Tracks" -> "Set Instance Track" and then select the correct instance.
+
+* If that steps above don't work, try deleting the instance and then adding a new one.
