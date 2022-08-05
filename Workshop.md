@@ -2,6 +2,8 @@
 
 ## Activating the environment
 
+Go to the command line (<kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd> on Linux).
+
 In your command line (assuming you installed SLEAP through the [conda package](https://github.com/rdiazrincon/SLEAP_workshop/blob/master/Instructions.md#from-a-conda-package-recommended-method)), run:
 
 ~~~
@@ -19,7 +21,7 @@ sleap-label
 
 ## Creating a new project
 
-Inside SLEAP, go to File -> New Project. Alternatively you can hit Ctrl + N
+Inside SLEAP, go to File -> New Project. Alternatively you can hit <kbd>CTRL</kbd>+<kbd>N</kbd>
 
 ![New Project](Images/01.jpg)
 
@@ -69,7 +71,7 @@ Depending on the method you chose, you could have a higher or lesser number or f
 
 ![Labeling suggestion](Images/04.jpg)
 
-Tip: After running different methods, you can go to the next labeled frame by pressing "Alt" +  "Right Key"
+Tip: After running different methods, you can go to the next labeled frame by pressing <kbd>Alt</kbd>+<kbd>Right Key</kbd>
 
 ## Creating Instances
 
@@ -87,7 +89,7 @@ Now you have your first labeled frame. To label subsequent frames, go back to th
 
 You can copy the position of the prior labeled frame by going into the GUI, hiting the right click and then selecting "Copy from prior Frame".
 
-If you mistakenly swapped the instances of the animals in the frame, you can it Ctrl + T to correct this.
+If you mistakenly swapped the instances of the animals in the frame, you can it <kbd>CTRL</kbd>+<kbd>T</kbd> to correct this.
 
 ## More Frames
 
@@ -115,7 +117,7 @@ When you finish running training and inference you might encounter some errors:
 
 ## Swapped Idenitities
 
-If you have swapped identities, please press "Ctrl" + "T" or go to "Tracks" -> "Transpose Identity Tracks"
+If you have swapped identities, please press <kbd>CTRL</kbd>+<kbd>T</kbd> or go to "Tracks" -> "Transpose Identity Tracks"
 
 ## Mistaken Tracks/Instances
 
